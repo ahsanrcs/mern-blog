@@ -90,9 +90,9 @@ export default function SignUp() {
                   <Spinner size="sm" />
                   <span className="pl-3"> loading ...</span>
                 </>
-              ) : (
+              ) : 
                 SignUp
-              )}
+              }
             </Button>
           </form>
           <div className="flex gap-2 text-sm mt-5">
